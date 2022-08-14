@@ -1,0 +1,4 @@
+use("travels");
+db.users.deleteMany(
+  { "email" : "admin@gmail.com" }
+);
